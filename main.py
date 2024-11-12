@@ -23,7 +23,7 @@ class Auto:
         nasientos = 0
         for x in range(0, len(self.asientos), 1):
             if self.asientos[x] != None:
-                nasientos =+ 1   
+                nasientos = nasientos + 1   
         return nasientos
     
     def verificarIntegridad(self):
